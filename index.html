@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para el amor de mi vida</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="petals-container"></div>
+
+    <div id="pantalla-inicio">
+        <div class="flower">
+            <div class="leaf"></div>
+            <div class="leaf"></div>
+            <div class="leaf"></div>
+            <div class="leaf"></div>
+            <div class="dot"></div>
+        </div>
+        <button id="btn-abrir">Para ti, con amor ❤️</button>
+    </div>
+
+    <div class="container" id="carta-principal" style="display: none;">
+        <header>
+            <h1 class="titulo-principal">Feliz Cumpleaños, Mi Niña</h1>
+        </header>
+
+        <section class="foto-section">
+            <img src="nosotros.jpg" alt="Nosotros" class="foto-pareja">
+        </section>
+
+        <section class="carta">
+            <h2 class="subtitulo">Para ti <span class="latido">💗</span></h2>
+            <div id="texto-animado" class="texto-carta"></div>
+        </section>
+
+        <audio id="miMusica">
+            <source src="musica.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
